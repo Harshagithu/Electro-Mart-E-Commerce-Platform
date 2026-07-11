@@ -1,0 +1,236 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@electromart.com",
+      "password": "admin123",
+      "role": "admin",
+      "address": "Hyderabad, Telangana",
+      "phone": "9999999999"
+    },
+    {
+      "id": "2",
+      "name": "Test Customer",
+      "email": "customer@electromart.com",
+      "password": "customer123",
+      "role": "customer",
+      "address": "Madhapur, Hyderabad",
+      "phone": "8888888888"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Smartphones"
+    },
+    {
+      "id": "2",
+      "name": "Laptops"
+    },
+    {
+      "id": "3",
+      "name": "Audio"
+    },
+    {
+      "id": "4",
+      "name": "Accessories"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Pulse X12 Smartphone",
+      "brand": "Pulse",
+      "categoryId": 1,
+      "price": 18999,
+      "discountPrice": 16999,
+      "rating": 4.3,
+      "stock": 25,
+      "image": "https://picsum.photos/seed/phone1/400/400",
+      "description": "6.5-inch AMOLED display, 5000mAh battery, 108MP camera.",
+      "featured": true,
+      "latest": true
+    },
+    {
+      "id": "2",
+      "name": "Nova Air Buds",
+      "brand": "Nova",
+      "categoryId": 3,
+      "price": 2499,
+      "discountPrice": 1999,
+      "rating": 4.1,
+      "stock": 60,
+      "image": "https://picsum.photos/seed/buds1/400/400",
+      "description": "True wireless earbuds with active noise cancellation.",
+      "featured": true,
+      "latest": false
+    },
+    {
+      "id": "3",
+      "name": "CoreBook 14 Laptop",
+      "brand": "CoreBook",
+      "categoryId": 2,
+      "price": 54999,
+      "discountPrice": 49999,
+      "rating": 4.5,
+      "stock": 15,
+      "image": "https://picsum.photos/seed/laptop1/400/400",
+      "description": "Intel i5, 16GB RAM, 512GB SSD, 14-inch FHD display.",
+      "featured": true,
+      "latest": true
+    },
+    {
+      "id": "4",
+      "name": "FastCharge 65W Adapter",
+      "brand": "VoltEdge",
+      "categoryId": 4,
+      "price": 1499,
+      "discountPrice": 1199,
+      "rating": 4,
+      "stock": 100,
+      "image": "https://picsum.photos/seed/charger1/400/400",
+      "description": "GaN 65W fast charger, compact and travel-friendly.",
+      "featured": false,
+      "latest": true
+    },
+    {
+      "id": "5",
+      "name": "Pulse X8 Smartphone",
+      "brand": "Pulse",
+      "categoryId": 1,
+      "price": 12999,
+      "discountPrice": 11499,
+      "rating": 3.9,
+      "stock": 40,
+      "image": "https://picsum.photos/seed/phone2/400/400",
+      "description": "6.1-inch display, 4500mAh battery, 50MP camera.",
+      "featured": false,
+      "latest": true
+    },
+    {
+      "id": "6",
+      "name": "SoundWave Bluetooth Speaker",
+      "brand": "SoundWave",
+      "categoryId": 3,
+      "price": 3499,
+      "discountPrice": 2999,
+      "rating": 4.2,
+      "stock": 35,
+      "image": "https://picsum.photos/seed/speaker1/400/400",
+      "description": "Portable speaker with 12-hour battery life, IPX7 rated.",
+      "featured": true,
+      "latest": false
+    },
+    {
+      "id": "7",
+      "name": "CoreBook Air 13",
+      "brand": "CoreBook",
+      "categoryId": 2,
+      "price": 64999,
+      "discountPrice": 59999,
+      "rating": 4.6,
+      "stock": 10,
+      "image": "https://picsum.photos/seed/laptop2/400/400",
+      "description": "Ultra-light 13-inch laptop, i7, 16GB RAM, 1TB SSD.",
+      "featured": false,
+      "latest": false
+    },
+    {
+      "id": "8",
+      "name": "Pulse Buds Pro",
+      "brand": "Pulse",
+      "categoryId": 3,
+      "price": 4999,
+      "discountPrice": 4299,
+      "rating": 4.4,
+      "stock": 45,
+      "image": "https://picsum.photos/seed/buds2/400/400",
+      "description": "Premium ANC earbuds with wireless charging case.",
+      "featured": true,
+      "latest": true
+    },
+    {
+      "id": "9",
+      "name": "USB-C Hub 7-in-1",
+      "brand": "VoltEdge",
+      "categoryId": 4,
+      "price": 2199,
+      "discountPrice": 1799,
+      "rating": 3.8,
+      "stock": 70,
+      "image": "https://picsum.photos/seed/hub1/400/400",
+      "description": "7-in-1 USB-C hub with HDMI, SD card, and 3 USB ports.",
+      "featured": false,
+      "latest": false
+    }
+  ],
+  "cart": [],
+  "wishlist": [],
+  "orders": [
+    {
+      "userId": "2",
+      "items": [
+        {
+          "id": "1",
+          "name": "Pulse X12 Smartphone",
+          "brand": "Pulse",
+          "categoryId": 1,
+          "price": 18999,
+          "discountPrice": 16999,
+          "rating": 4.3,
+          "stock": 25,
+          "image": "https://picsum.photos/seed/phone1/400/400",
+          "description": "6.5-inch AMOLED display, 5000mAh battery, 108MP camera.",
+          "featured": true,
+          "latest": true,
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Nova Air Buds",
+          "brand": "Nova",
+          "categoryId": 3,
+          "price": 2499,
+          "discountPrice": 1999,
+          "rating": 4.1,
+          "stock": 60,
+          "image": "https://picsum.photos/seed/buds1/400/400",
+          "description": "True wireless earbuds with active noise cancellation.",
+          "featured": true,
+          "latest": false,
+          "quantity": 1
+        }
+      ],
+      "address": "Madhapur, Hyderabad",
+      "paymentMethod": "COD",
+      "subtotal": 18998,
+      "tax": 950,
+      "total": 19948,
+      "status": "Delivered",
+      "date": "2026-07-11T12:56:10.390Z",
+      "id": "rluFuuJIXSk"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "productId": 1,
+      "userId": 2,
+      "rating": 5,
+      "comment": "Great camera quality, battery lasts all day.",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "2",
+      "productId": 3,
+      "userId": 2,
+      "rating": 4,
+      "comment": "Fast and lightweight, good for coding on the go.",
+      "date": "2026-06-22"
+    }
+  ],
+  "payments": [],
+  "contact": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
